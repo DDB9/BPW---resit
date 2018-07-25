@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour {
 
+	public float lol;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +13,6 @@ public class playerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+	
 	}
 }
