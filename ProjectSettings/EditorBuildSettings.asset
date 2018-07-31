@@ -8,7 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/e57cfb8c90a262c4b95c361bb9e16f22
+    guid: e57cfb8c90a262c4b95c361bb9e16f22
+  - enabled: 1
+    path: Assets/Scenes/mainMenu.unity
+    guid: 9159be85a9808a044893de65af0ee20d
   - enabled: 1
     path: Assets/Scenes/FPSMazeEscape.unity
     guid: 34998bab291a6f140a72f7763bc3abe2
+  - enabled: 1
+    path: Assets/Scenes/gameOver.unity
+    guid: 3df22aef7adb91744bc9bb67a51ae693
   m_configObjects: {}
