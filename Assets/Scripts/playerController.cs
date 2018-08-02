@@ -6,6 +6,8 @@ using UnityEngine;
 public class playerController : MonoBehaviour {
 
     public float speed = 10.0f;
+    public GameObject armPickup;
+    public GameObject player;
 
     // Use this for initialization
     void Start(){
@@ -22,6 +24,13 @@ public class playerController : MonoBehaviour {
         transform.Translate(straffe, 0, translation);
 
         if (Input.GetKeyDown("escape"))
-            Cursor.lockState = CursorLockMode.None;
+            Cursor.lockState = CursorLockMode.None;     
+    }
+
+    void OnTriggerEnter(Collider other){
+        if (other.tag == "arm"){
+            Destroy(armPickup);
+            player.GetComponent<ArmScript>().enabled = true;
+        }
     }
 }
