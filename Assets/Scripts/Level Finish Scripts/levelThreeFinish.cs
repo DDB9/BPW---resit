@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class levelOneFinish : MonoBehaviour {
+public class levelThreeFinish : MonoBehaviour {
 
 	public GameObject player;
 
 	void OnTriggerEnter(Collider other){
-		player.transform.position = new Vector3(66.45f, 4, 15.8f);
+		player.transform.position = new Vector3(163, 3, 15);
 	}
-
 }
+
