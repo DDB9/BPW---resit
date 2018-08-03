@@ -13,7 +13,7 @@ public class SecondButtonGC : MonoBehaviour {
 	}
 
 	IEnumerator closingTime(){
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(3.1f);
 		gate.SetActive(true);
 		buttonUP.SetActive(true);
 		buttonP.SetActive(false);
