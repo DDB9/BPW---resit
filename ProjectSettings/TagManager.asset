@@ -6,6 +6,8 @@ TagManager:
   tags:
   - arm
   - collider
+  - Level4_2_crateWide
+  - Level4_2_crateSmall
   layers:
   - Default
   - TransparentFX
