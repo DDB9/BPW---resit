@@ -8,6 +8,9 @@ TagManager:
   - collider
   - Level4_2_crateWide
   - Level4_2_crateSmall
+  - Level4_3_crateSmall
+  - Level4_3_crateWide
+  - Level4_3_crateBig
   layers:
   - Default
   - TransparentFX
