@@ -7,12 +7,15 @@ public class SecondButton : MonoBehaviour {
 	public GameObject buttonUP;
 	public GameObject buttonP;
 	public GameObject gate;
+	
+	public AudioSource buttonClick;
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "arm"){
 			buttonUP.SetActive(false);
 			buttonP.SetActive(true);
 			gate.SetActive(false);
+			buttonClick.Play();
 		}
 	}
 }

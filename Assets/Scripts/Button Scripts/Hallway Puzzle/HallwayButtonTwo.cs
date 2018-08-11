@@ -8,9 +8,12 @@ public class HallwayButtonTwo : MonoBehaviour {
 	public GameObject buttonP;
 	public GameObject buttonOne;
 
+	public AudioSource buttonClick;
+
 	void OnTriggerEnter(Collider other){
 		buttonUP.SetActive(false);
 		buttonP.SetActive(true);
+		buttonClick.Play();
 
 		if (gateControl.isPressedOne == true){
 			gateControl.isPressedTwo = true; 

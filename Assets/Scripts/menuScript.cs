@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class menuScript : MonoBehaviour {
 
+
+
 	void Start(){
 		Cursor.lockState = CursorLockMode.None;
 	}

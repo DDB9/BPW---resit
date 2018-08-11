@@ -10,9 +10,12 @@ public class HallwayButtonFour : MonoBehaviour {
 	public GameObject buttonTwo;
 	public GameObject buttonThree;
 
+	public AudioSource buttonClick;
+
 	void OnTriggerEnter(Collider other){
 		buttonUP.SetActive(false);
 		buttonP.SetActive(true);
+		buttonClick.Play();
 
 		if (gateControl.isPressedOne == true & gateControl.isPressedTwo == true && gateControl.isPressedThree == true){
 			gateControl.isPressedFour = true;
